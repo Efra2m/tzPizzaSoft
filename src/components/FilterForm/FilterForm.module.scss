@@ -29,4 +29,33 @@
     flex-direction: column;
     gap: 10px;
   }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 15px;
+    width: 60%;
+
+    .labelrole,
+    .labelisarchive {
+      flex: 1 1 100%;
+      margin-left: 300px;
+      margin-top: -20px;
+      width: 100px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    padding: 15px;
+    width: 40%;
+
+    label {
+      font-size: 14px;
+    }
+
+    select,
+    input[type="checkbox"] {
+      font-size: 14px;
+      padding: 6px;
+    }
+  }
 }
