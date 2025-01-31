@@ -1,0 +1,139 @@
+.employeeList {
+  margin-left: 400px;
+  width: 600px;
+  padding: 20px;
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  .actions {
+    margin-left: 500px;
+    width: 426px;
+    height: 66px;
+    gap: 20px;
+
+    button {
+      height: 38px;
+      margin-top: 100px;
+      margin-right: 20px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin-bottom: 10px;
+
+      a {
+        text-decoration: none;
+        color: #007bff;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .addButton {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+
+    &:hover {
+      background-color: #3e3e3e;
+    }
+    img {
+      margin-right: 5px;
+      height: 14px;
+      width: 12.3px;
+    }
+  }
+
+  .error {
+    color: red;
+  }
+}
+
+.header {
+  width: 1276px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: -300px;
+  margin-bottom: -30px;
+}
+
+.names {
+  width: 1276px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  border: 1px solid #e0e0e0;
+  margin-left: -300px;
+}
+
+.names li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.names li:last-child {
+  border-bottom: none;
+}
+
+.names li:hover {
+  background-color: #f9f9f9;
+}
+
+.names a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.names a:hover {
+  color: #007bff;
+}
+
+.names li p {
+  margin: 0;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+.names th {
+  background-color: #f5f5f5;
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 2px solid #ececec;
+  width: 240px;
+  max-height: 40px;
+}
+.names td {
+  background-color: #ffffff;
+  text-align: left;
+  border-bottom: 1px solid #ececec;
+  width: 250px;
+  height: 53px;
+  margin-right: 10px;
+}
+.names td:first-child {
+  border-left: none;
+}
+.img {
+  margin-top: 20px;
+  margin-left: 180px;
+}
