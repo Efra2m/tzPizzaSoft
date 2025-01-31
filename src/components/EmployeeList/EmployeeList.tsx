@@ -90,7 +90,7 @@ const EmployeeList: React.FC = () => {
   return (
     <div className={styles.employeeList}>
       <div className={styles.header}>
-        <h1>Список сотрудников</h1>
+        <h1 className={styles.lists}>Список сотрудников</h1>
         <Link to="/add" className={styles.addButton}>
           <img src="plus.png" alt="плюс" />
           Добавить сотрудника

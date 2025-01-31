@@ -93,3 +93,33 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .formContainer {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.25rem;
+    margin-right: 0;
+  }
+
+  .button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .input {
+    font-size: 0.875rem;
+  }
+
+  .button {
+    padding: 0.5rem;
+  }
+}
